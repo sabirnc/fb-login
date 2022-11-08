@@ -1,0 +1,84 @@
+@font-face {
+    font-family: sf-pro;
+    src: url(FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+body{
+    background-color:#fff;
+    font-size: 12px;
+}
+.container{
+   margin: 0 auto;
+   max-width: 1200px;
+   margin-top: 200px;
+   display: flex;
+   padding: 10px;
+   justify-content: space-around;
+   align-items: center;
+   height: 50vh;
+}
+.login{
+    border:none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 20px;
+    height: 30vh;
+    width: 25%;
+    border-radius: 5px;
+}
+a{
+    text-align: center;
+}
+a:hover{
+    color: #1877f2;
+}
+a:focus{
+    color: #1877f2;
+}
+input{
+    height: 2.5em;
+    padding: 7px 14px;
+    border-color: rgba(116, 114, 114, 0.801);
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+input:focus{
+    border-color: #1877f2;
+    outline: none;
+}
+input::placeholder{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, .6 );
+}
+button{
+    padding: 10px 20px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 15px 0;
+    font-weight: bolder;
+    cursor: pointer;
+}
+img{
+    height: 13vh;
+    margin: 0;
+
+}
+p{
+    margin: 0 0 0 1.4em; 
+    color: #1c1e21;
+    font-family: sf-pro;
+    font-size: 2rem;
+}
+.create{
+    background-color: #36a420;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: bolder;
+    padding: 16px 15px;
+}
+
+ 
